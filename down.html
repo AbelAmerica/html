@@ -1,9 +1,44 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-            <title>你的应用名称</title>
-    </head>
-    <a style="text-align:center" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/manifest.plist">点我下载</a>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Links</title>
+    <style>
+        /* 样式可以根据需要进行调整 */
+        .download-button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
+        .download-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Download Files</h1>
+
+    <!-- 第一个下载按钮 -->
+    <button class="测试请点此处" onclick="window.location.href='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/manifest.plist'">
+        Download File 1
+    </button>
+
+    <!-- 第二个下载按钮 -->
+    <button class="预发请点此处" onclick="window.location.href='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/manifest.plist'">
+        Download File 2
+    </button>
+
+    <!-- 第三个下载按钮 -->
+    <button class="正式请点此处" onclick="window.location.href='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/manifest.plist'">
+        Download File 3
+    </button>
+
+</body>
+</html>
